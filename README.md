@@ -1,9 +1,21 @@
 # interview-tasks
 
-Тут я буду собирать и записывать свои ответы, которые посчитаю успешными, на тупые задачки с собесов, 
-на знание основ и на знание алгоритмов и всего такого.
+Тут я буду собирать и записывать свои ответы на задачки с собесов, на знание основ, алгоритмов и всего такого.
+
+
+## Схема проекта
+
+<details>
+<summary>Показать</summary>
+
+* [Алгоритмы](https://github.com/bakugod/interview-tasks/blob/master/algorithmic-part.js)
+* [Особенности JS](https://github.com/bakugod/interview-tasks/blob/master/features.js)
+* [Спецификая JS](https://github.com/bakugod/interview-tasks/blob/master/knowledges.js)
+</details>
+
+
 
 ## Немного обо мне
-  <a href="https://developer.mozilla.org/ru/profiles/bakugod" style="color:blue;text-decoration: none;display:block">Перевожу</a>
-  <a href="https://github.com/bakugod" style="color:blue;text-decoration: none;">Программирую</a>
-  <p style="color:red;margin:0">Ищу работу!</p>
+  <a href="https://developer.mozilla.org/ru/profiles/bakugod">Перевожу</a>
+  <a href="https://github.com/bakugod">Программирую</a>
+  <a href="https://bakugod.github.io/about/resume.html">Ищу работу</a>
