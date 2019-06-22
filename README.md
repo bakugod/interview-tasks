@@ -8,7 +8,7 @@
 <details>
 <summary>Показать</summary>
 
-* [Алгоритмы](https://github.com/bakugod/interview-tasks/blob/master/algorithmic-part.js)
+* [Алгоритмы](https://github.com/bakugod/interview-tasks/blob/master/algorithmic-part.md)
 * [Особенности JS](https://github.com/bakugod/interview-tasks/blob/master/features.js)
 * [Спецификая JS](https://github.com/bakugod/interview-tasks/blob/master/knowledges.js)
 </details>
