@@ -270,3 +270,58 @@ const sum3 = ([head, ...tail]) => head ? head + sum(tail) : 0;
 ```
 
 </details>
+
+## 9) get
+Написать аналог get из lodash
+```javascript
+const data = {
+  user: {
+    firstName: 'Lev',
+    lastName: 'Tolstoy',
+  }
+};
+const get = (path, object) => {
+  // ... написать реализацию
+};
+
+console.log(get('user.firstName', data)); --> Lev
+console.log(get('user.firstBook.title', data)); --> undefined
+```
+
+<details>
+  <summary>Показать ответ</summary>
+  
+```javascript
+const get = (path, obj) => path.split('.').reduce((o, k) => o && o[k], obj);
+```
+
+</details>
+
+## 10
+Нужно написать myDelay так, чтобы в консоли вывелось 1 2 3 (т.е. по порядку вызова), delay нельзя менять
+
+```javascript
+const delay = (t) => new Promise(resolve => setTimeout(resolve, t));
+const myDelay = (...args) => delay(...args);
+myDelay(50).then(() => console.log(1));
+myDelay(10).then(() => console.log(2));
+myDelay(30).then(() => console.log(3));
+```
+
+<details>
+  <summary>Показать ответ</summary>
+  
+```javascript
+const myDelay = async () => await delay();
+
+//Вспоминаем правило eslint @no-return-await и пишем правильно
+//https://eslint.org/docs/rules/no-return-await
+
+const myDelay = async () => delay();
+
+//Либо через промисы
+let q = Promise.resolve();
+const myDelay = (...args) => q = q.then(() => delay(...args));
+```
+
+</details>
