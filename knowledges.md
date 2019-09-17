@@ -19,6 +19,18 @@
 	9.Скоро внесут в спецификацию - BigInt (typeof 1n). 
 	Добавлен был в ES6.
 ```
+
+```
+По cпецификации:
+	1.Undefined
+	2.Null
+	3.Boolean
+	4.Number
+	5.String
+	6.Symbol
+	7.Object (does not implement [[Call]])
+	8.Object (implements [[Call]])	
+```
   
 </details>
 
