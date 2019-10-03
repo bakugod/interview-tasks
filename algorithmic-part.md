@@ -334,8 +334,8 @@ const myDelay = (...args) => q = q.then(() => delay(...args));
   
 ```javascript
 function isPalindrom(
-	input,
-  string = input.toLowerCase(),    
+  input,
+  string = input.toLowerCase(),
   comparator = string.split('').reverse().join(''),
   ){
   const midStr = mid(string);
