@@ -325,3 +325,43 @@ const myDelay = (...args) => q = q.then(() => delay(...args));
 ```
 
 </details>
+
+## 11
+Нужно написать функцию, которая проверит является ли строка палиндромом
+
+<details>
+  <summary>Показать ответ</summary>
+  
+```javascript
+function isPalindrom(
+	input,
+  string = input.toLowerCase(),    
+  comparator = string.split('').reverse().join(''),
+  ){
+  const midStr = mid(string);
+  const midCom = mid(comparator)
+  
+  if(string.includes(' ')){
+  	return string.split(' ').join('') === comparator.replace(/\s+/g, '')
+  }
+  else{
+  	if(string[0] !== comparator[0]) return false
+    if(string !== comparator) return false
+  }
+  
+  return true
+}
+
+isPalindrom('А роза упала на лапу Азора') //true
+isPalindrom('a') //true
+isPalindrom('ab') //false
+isPalindrom('aa') //true
+isPalindrom('aab') //false
+isPalindrom('aba') //true
+isPalindrom('aaa') //true
+isPalindrom('neilarmstronggnortsmralien') //true
+isPalindrom('neilarmstrongxgnortsmralien') //true
+isPalindrom('neilarmstrongxsortsmralien') //false
+```
+
+</details>
