@@ -75,4 +75,6 @@ const obj = { x:5 } - *пользовательский*, так как иниц
 
 https://github.com/WebKit/webkit/blob/master/Source/WTF/wtf/RunLoop.cpp
 
+https://github.com/v8/v8/blob/master/src/libplatform/default-platform.cc
+
 </details>
