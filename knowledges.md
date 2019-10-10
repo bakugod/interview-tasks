@@ -78,3 +78,12 @@ https://github.com/WebKit/webkit/blob/master/Source/WTF/wtf/RunLoop.cpp
 https://github.com/v8/v8/blob/master/src/libplatform/default-platform.cc
 
 </details>
+
+## 4) Чем отличается Web 3.0 от Web 2.0? Что это такое вообще?
+
+<details>
+  <summary>Показать ответ</summary>
+
+https://ru.wikipedia.org/wiki/Web_3.0
+
+</details>
