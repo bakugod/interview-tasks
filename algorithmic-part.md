@@ -338,15 +338,14 @@ function isPalindrom(
   string = input.toLowerCase(),
   comparator = string.split('').reverse().join(''),
   ){
-  const midStr = mid(string);
-  const midCom = mid(comparator)
   
   if(string.includes(' ')){
   	return string.split(' ').join('') === comparator.replace(/\s+/g, '')
   }
+  
   else{
   	if(string[0] !== comparator[0]) return false
-    if(string !== comparator) return false
+    	if(string !== comparator) return false
   }
   
   return true
