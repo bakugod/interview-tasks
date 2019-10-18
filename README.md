@@ -18,4 +18,3 @@
 ## Немного обо мне
   <a href="https://developer.mozilla.org/ru/profiles/bakugod">Перевожу</a>
   <a href="https://github.com/bakugod">Программирую</a>
-  <a href="https://bakugod.github.io/about/resume.html">Ищу работу</a>
