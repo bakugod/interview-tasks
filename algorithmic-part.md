@@ -297,7 +297,7 @@ const get = (path, obj) => path.split('.').reduce((o, k) => o && o[k], obj);
 
 </details>
 
-## 10
+## 10)
 Нужно написать myDelay так, чтобы в консоли вывелось 1 2 3 (т.е. по порядку вызова), delay нельзя менять
 
 ```javascript
@@ -326,7 +326,7 @@ const myDelay = (...args) => q = q.then(() => delay(...args));
 
 </details>
 
-## 11
+## 11)
 Нужно написать функцию, которая проверит является ли строка палиндромом
 
 <details>
