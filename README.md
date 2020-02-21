@@ -11,7 +11,6 @@
 
 
 
-
 ## Немного обо мне
   <a href="https://developer.mozilla.org/ru/profiles/bakugod">Перевожу</a>
   <a href="https://github.com/bakugod">Программирую</a>
