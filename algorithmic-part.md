@@ -364,3 +364,40 @@ isPalindrom('neilarmstrongxsortsmralien') //false
 ```
 
 </details>
+
+## 12) Бесконечное цукуёми
+Нужно написать функцию, которая умеет так:
+```javascript
+add(1)(2)() //3
+add(1)(2)(3)() //6
+add(1)(2)(3)(4)() //10
+```
+
+<details>
+  <summary>Показать ответ</summary>
+  
+```javascript
+function add(arg){
+  const infCurry = fn => {
+    const next = (...args) =>{
+      return x =>{
+        if(!x) {
+          return args.reduce((acc, a)=>{
+            return fn.call(fn, acc, a)
+          }, arg)
+        }
+        return next(...args, x)
+      }
+    }
+    return next()
+  }
+  return infCurry((x,y)=>x+y)
+}
+
+console.log(add(1)(2)(3)())
+```
+
+</details>
+
+
+
