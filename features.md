@@ -148,3 +148,35 @@ function func(arg) {
 ```
 
 </details>
+
+## 6) Глобальный объект window
+Почему возникает ошибка?
+```html
+<div id="test">123</div>
+```
+
+```javascript
+console.log(test);
+test.id = 'test2';
+console.dir(test); // error
+```
+
+Вариант посложнее - нужно понять где какой цвет текста
+```html
+<div id="test">123</div>
+<div id="test">123</div>
+```
+
+```css
+#test2{
+  color: red;
+}
+#test{
+  color: blue;
+}
+```
+
+```javascript
+for(key of test)
+	key.id = 'test2'
+```
